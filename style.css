@@ -293,3 +293,45 @@ li a i {
 
 /* Resume Styling End */
 
+
+/* Contact styling start */
+
+.flex-containers {
+  display: flex;
+}
+
+.formdetails {
+  margin: 10px;
+}
+.formdetails input {
+  margin: 20px 0;
+  margin-right: 20px;
+  padding: 10px;
+}
+.formdetails label {
+  font-size: large;
+}
+#submitbutton {
+  width: 100px;
+  height: 100px;
+  background-color:#FF9D92 ;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: larger;
+  border: #EEA302;
+  margin-top: 50px;
+  
+}
+#submitbutton:hover {background-color: #3db341}
+#submitbutton:active {
+  background-color: #3db341;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+.label::after {
+  content: "*";
+  color: red;
+  padding-left: 5px;
+}
+
+/* Contact styling end */
