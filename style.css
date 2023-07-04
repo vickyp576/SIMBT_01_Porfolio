@@ -335,3 +335,12 @@ li a i {
 }
 
 /* Contact styling end */
+
+/* project styling start*/
+#project img {
+  width: 550px;
+  height: 500px;
+  border-radius: 5%;
+  margin-left: 5%;
+}
+/* project styling start*/
