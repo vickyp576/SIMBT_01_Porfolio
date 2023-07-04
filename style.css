@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#f9f9f9 ;
+}
+/* Navbar Styling */
+nav {
+   display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 30px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  color: #390678; 
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+.menu li:last-child {
+  margin-right: 20px;
+}
+.menu li a {
+  text-decoration: none;
+  border-radius: 15px;
+  border: 0.5px #333;
+  padding: 10px;
+  color: #6f06cc;
+  font-size: large;
+}
+
+.menu li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu li a:focus,
+.menu li a:active {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Navbar styling End */
+
+.card , .cards{
+  display: flex;
+  width: 80%;
+  margin: 10% 10%;
+}
+.cards {
+  margin-bottom: 0%;
+}
+p {
+  font-size: larger;
+}
+.content {
+  display: flex;
+  align-items:left;
+  flex-direction: column;
+  width: 80%;
+  padding-left: 5%;
+  margin-left: 3%;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 60%;
+  margin-left: 7%;
+  /* filter: grayscale(90%); */
+}
+
+.heading {
+  font-size: 50px;
+  font-family: cursive;
+  color: #390678;
+}
+h1 {
+  font-size: 50px;
+  color: #6f06cc;
+}
+.content > h2 {
+  color: #6f06cc;
+}
+
+button{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 25px;
+  font-size: larger;
+  border: #EEA302;
+}
+button > a {
+  text-decoration: none;
+  color: black;
+}
+#resumebutton {
+  background-color:#e2b450 ;
+}
+#Projectsbutton{
+  background-color:#FF9D92 ;
+}
+#Contactbutton {
+  background-color:#80D8DA ;
+}
+
+#Contactbutton:hover {background-color: #3db341}
+#Projectsbutton:hover {background-color: #3db341}
+#resumebutton:hover {background-color: #3db341}
+
+#resumebutton:active {
+  background-color: #3db341;
+  box-shadow: 0 5px #666; 
+   transform: translateY(5px); 
+}
+#Projectsbutton:active {
+  background-color: #3db341;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+#Contactbutton:active {
+  background-color: #3db341;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: rgb(169, 173, 177);
+  margin: 20px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid rgb(169, 173, 177);
+  border-radius: 8%;
+  font-size: larger;
+}
+
+#skill {
+  width: 500px;
+  height: 500px;
+  border-radius: 60%;
+  margin-left: 10%;
+  font-size: larger;
+  text-align: center;
+}
+
+.image > a > img{
+  width: 45px;
+  height: 40px;
+  margin-left: 5%;
+  justify-content: center;
+  align-items: center;
+  }
+
+  /* Footer styling Start */
+
+  footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    /* max-width: 960px; */
+    margin: 0 auto;
+  }
+  
+  .contact-info li,
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px;
+    font-size: large;
+  }
+  
+  .social-links a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #00f;
+  }
+li span {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+li a i {
+    font-size: 50px;
+}
+#email {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+/* Footer styling End */
+
+/* Resume Styling Start */
+
+.resume {
+  margin-top: 10%;
+  padding: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+
+}
+
+.details li {
+  margin: 0 3%;
+  justify-content: center;
+}
+.resume h1  {
+  text-align: center;
+  font-size: 90px;
+}
+.resume div  {
+  text-align: center;
+}
+.cards h2 {
+  color: #00f;
+  font-size: 40px;
+}
+
+.organization {
+  font-size: 25px;
+  font-weight: 600;
+}
+.position {
+  font-size: 20px;
+  font-weight: 400;
+}
+.time {
+  font-size: 16px;
+  font-weight: 200;
+}
+.education {
+  margin-bottom: 5%;
+}
+
+#previewbutton{
+  background-color:#FF9D92 ;
+}
+#downloadbutton {
+  background-color:#80D8DA ;
+}
+
+#previewbutton:hover {background-color: #3db341}
+#downloadbutton:hover {background-color: #3db341}
+
+#downloadbutton:active {
+  background-color: #3db341;
+  box-shadow: 0 5px #666; 
+   transform: translateY(5px); 
+}
+#previewbutton:active {
+  background-color: #3db341;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+
+/* Resume Styling End */
+
