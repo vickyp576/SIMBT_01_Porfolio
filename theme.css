@@ -1,0 +1,141 @@
+
+  .menu {
+    margin-right: 3%;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Theme Change Styling */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #6f06cc;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #6f06cc;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  /* Dark Theme Styling */
+  body.dark-theme {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .dark-theme nav {
+    background-color: #111;
+    color:#0fcac1;
+  }
+  .dark-theme footer {
+    background-color: #111;
+    color: #a8abab;
+  }
+  .dark-theme #email {
+    cursor: pointer;
+    color: rgb(155, 151, 151);
+}
+  .dark-theme .menu li a {
+    color:#0fcac1;
+  }
+  
+  .dark-theme .slider {
+    background-color: #6f06cc;
+  }
+  
+  .dark-theme .slider:before {
+    background-color: #fff;
+  }
+  .dark-theme li a i {
+    font-size: 50px;
+    color: rgb(48, 48, 168);
+}
+.dark-theme .heading {
+    font-size: 50px;
+    font-family: cursive;
+    color: #dfe921;
+  }
+  .dark-theme .content > h2 {
+    color: #9bd04c;
+  }
+  .dark-theme  #skill h1{
+    font-size: 50px;
+    color: #9bd04c;
+  }
+  .dark-theme .flex-container > div {
+    background-color: rgb(1, 9, 17);
+    border: 1px solid rgb(169, 173, 177);
+    border-radius: 15%;
+  }
+  .dark-theme .menu li a:hover {
+    color: #0f0e10;
+    background-color: #9bd04c;
+  } 
+  .dark-theme   .menu {
+    margin-right: 3%;
+  } 
+  .dark-theme .resume h1 {
+    color:#dfe921 ;
+  }
+  .dark-theme .cards h2 {
+    color:#dfe921 ;
+  }
+  .dark-theme .details .organization {
+    color:#e921be ;
+  }
+  .dark-theme .details .int {
+    color:white ;
+  }
