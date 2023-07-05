@@ -237,7 +237,9 @@ li a i {
   justify-content: center;
 
 }
-
+#interest li {
+  list-style-type:none;
+}
 .details li {
   margin: 0 3%;
   justify-content: center;
@@ -344,3 +346,163 @@ li a i {
   margin-left: 5%;
 }
 /* project styling start*/
+
+/* Mobile Styles */
+
+/* Navbar */
+@media (max-width: 768px) {
+  nav {
+    padding: 20px 20px;
+  }
+  
+  .name {
+    /* font-size: 24px; */
+    display: none;
+  }
+  
+  .menu li a {
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+}
+
+/* Card and Cards */
+@media (max-width: 768px) {
+  .card,
+  .cards {
+    flex-direction: column;
+    width: 90%;
+    margin: 5%;
+    margin-top: 20%;
+  }
+  
+  .content {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    height: 100%;
+   border-radius: 5%;
+  }
+  
+  .heading {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+
+/* Skills */
+@media (max-width: 768px) {
+  #skill {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  .contact-info li
+   {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .social-links li {
+    padding: 1%;
+  }
+  .social-links h2 {
+    font-size: 18px;
+  }
+}
+
+/* Resume */
+@media (max-width: 768px) {
+  .resume h1 {
+    font-size: 60px;
+  }
+  
+  .cards h2 {
+    font-size: 30px;
+  }
+  
+  .organization {
+    font-size: 20px;
+  }
+  
+  .position {
+    font-size: 16px;
+  }
+  
+  .time {
+    font-size: 14px;
+  }
+}
+
+/* Contact Form */
+@media (max-width: 768px) {
+  .flex-containers {
+    flex-direction: column;
+    
+  }
+
+  .formdetails {
+    margin: 10px 0;
+  }
+  
+  .formdetails input {
+    margin: 10px 0;
+    padding: 8px;
+ 
+  }
+  
+  .formdetails label {
+    font-size: 14px;
+
+  }
+ 
+  #submitbutton {
+    width: 70px;
+    height: 50px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+/* Projects */
+@media (max-width: 768px) {
+  #project img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    /* margin-top: 15%; */
+  }
+  .button , #submitbutton{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}

@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./images/image.jpeg" />
     <!-- Title Icons  -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="theme.css" />
     <!-- Style file -->
     <link
       rel="stylesheet"
@@ -22,17 +23,25 @@
         <li><a href="resume.html">Resume</a></li>
         <li><a href="project.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><label class="switch">
+          <input type="checkbox" id="themeSwitch">
+          <span class="slider round"></span>
+        </label></li>
       </ul>
     </nav>
 
     <div class="resume">
       <h1>Resume</h1>
       <div>
-        <button id="downloadbutton" class="button"><a href="./resume/resume.pdf" download >Download</a></button>
-        <button id="previewbutton" class="button"><a href="resumeview.html"  >Preview</a></button>
+        <button id="downloadbutton" class="button">
+          <a href="./resume/resume.pdf" download>Download</a>
+        </button>
+        <button id="previewbutton" class="button">
+          <a href="resumeview.html">Preview</a>
+        </button>
       </div>
     </div>
-    
+
     <section class="work">
       <div class="cards">
         <h2 id="Skill">Work Experience :</h2>
@@ -88,56 +97,52 @@
     </section>
 
     <section class="education">
-        <div class="cards">
-          <h2 id="Skill">Training & Workshop :</h2>
-        </div>
-        <hr />
-        <div class="content">
-          <ul class="details">
-            <li>
-              <p class="organization">
-                SUNFLAG IRON & STEEL CO. LTD
-              </p>
-              <p class="position">Completed Industrial Vocational Training with company
-                 " SUNFLAG IRON & STEEL CO. LTD. " Bhandara in RM A&E department.</p>
-            </li>
-            <li>
-              <p class="organization">National Power Training Institute</p>
-              <p class="position">Attended workshop on " POWER GENERATION ENGINEERING " by Department of Electrical National
-                Power Training Institute, Nagpur</p>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div class="cards">
+        <h2 id="Skill">Training & Workshop :</h2>
+      </div>
+      <hr />
+      <div class="content">
+        <ul class="details">
+          <li>
+            <p class="organization">SUNFLAG IRON & STEEL CO. LTD</p>
+            <p class="position">
+              Completed Industrial Vocational Training with company " SUNFLAG
+              IRON & STEEL CO. LTD. " Bhandara in RM A&E department.
+            </p>
+          </li>
+          <li>
+            <p class="organization">National Power Training Institute</p>
+            <p class="position">
+              Attended workshop on " POWER GENERATION ENGINEERING " by
+              Department of Electrical National Power Training Institute, Nagpur
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <section class="education">
-        <div class="cards">
-          <h2 id="Skill">Interest :</h2>
-        </div>
-        <hr />
-        <div class="content">
-          <ul class="details">
-            <li>
-              <p class="organization">Photography</p>
-            </li>
-            <li>
-              <p class="organization">Gardening</p>
-            </li>
-            <li>
-              <p class="organization">Coding</p>
-            </li>
-            <li>
-                <p class="organization">Reading</p>
-              </li>
-              <li>
-                <p class="organization">Cooking</p>
-              </li>
-              <li>
-                <p class="organization">Travelling</p>
-              </li>
-          </ul>
-        </div>
-      </section>
+      <div class="cards">
+        <h2 id="Skill">Interest :</h2>
+      </div>
+      <hr />
+      <div class="content">
+        <ul class="details" id="interest">
+          <li>
+            <p class="organization int">* Photography</p>
+            <p class="organization int">* Gardening</p>
+          </li>
+          <li>
+            <p class="organization int">* Coding</p>
+            <p class="organization int">* Reading</p>
+          </li>
+          <li>
+            <p class="organization int">* Cooking</p>
+            <p class="organization int">* Travelling</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <footer id="footermain">
       <div class="container">
@@ -191,5 +196,6 @@
       </div>
       <p>@ 2023 Vicky Paswan. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
